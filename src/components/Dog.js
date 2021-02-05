@@ -7,3 +7,5 @@ const Dog = () => {
     </div>
   );
 };
+
+export default Dog;
