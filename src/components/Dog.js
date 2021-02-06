@@ -1,11 +1,19 @@
 import React from 'react';
 
-import DogData from './DogData';
+import { DogData } from './DogData';
 
 const Dogs = () => {
   return (
     <div>
-      <h2>Dogs will go here</h2>
+      <ul>
+        {DogData.map((dog, index) => {
+          return (
+            <li>
+              {dog.breed} - {dog.origin}- {dog.colors}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };
