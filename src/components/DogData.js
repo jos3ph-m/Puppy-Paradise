@@ -3,7 +3,7 @@ import React from 'react';
 export const DogData = [
   {
     breed: 'Pug',
-    path: '/pug',
+    path: '/dogs/pug',
     origin: 'China',
     colors: 'Fawn, Apricot, and Black',
     description:
@@ -12,7 +12,7 @@ export const DogData = [
   },
   {
     breed: 'Labrador Retriever',
-    path: '/labrador',
+    path: '/dogs/labrador',
     origin: 'United Kingdom',
     colors: 'Yellow, White, Chocolate, Silver, and Black',
     description:
@@ -21,7 +21,7 @@ export const DogData = [
   },
   {
     breed: 'Beagle',
-    path: '/beagle',
+    path: '/dogs/beagle',
     origin: 'England',
     colors:
       'Tri-color, Lemon & White, White & Tan, Chocolate Tri, Orange & White, Red & White, and White & Chocolate',
@@ -31,7 +31,7 @@ export const DogData = [
   },
   {
     breed: 'German Shepherd',
-    path: '/german',
+    path: '/dogs/german',
     origin: 'Germany',
     colors: 'Black, Sable, Grey, Black & Silver, Red & Black, and Black & Tan',
     description:
@@ -40,7 +40,7 @@ export const DogData = [
   },
   {
     breed: 'Basset Hound',
-    path: '/basset',
+    path: '/dogs/basset',
     origin: 'United Kingdom',
     colors:
       'Tri-color, Lemon & White, Black & White, Red & White, Black & Brown, and White & Chocolate',
@@ -50,7 +50,7 @@ export const DogData = [
   },
   {
     breed: 'Dalmatian',
-    path: '/dalmatian',
+    path: '/dogs/dalmatian',
     origin: 'Croatia',
     colors: 'Black & White, and Liver & White',
     description:
@@ -59,7 +59,7 @@ export const DogData = [
   },
   {
     breed: 'Bernese Mountain Dog',
-    path: '/bernese',
+    path: '/dogs/bernese',
     origin: 'Switzerland',
     colors: 'Tri-color',
     description:
@@ -68,7 +68,7 @@ export const DogData = [
   },
   {
     breed: 'English Bulldog',
-    path: '/bulldog',
+    path: '/dogs/bulldog',
     origin: 'England',
     colors:
       'Red, White, Fawn, Fallow, Brindle, Chocolate, Black, Tri-Color, Blue, Lilac',
@@ -78,7 +78,7 @@ export const DogData = [
   },
   {
     breed: 'Rough Collie',
-    path: '/collie',
+    path: '/dogs/collie',
     origin: 'United Kingdom',
     colors:
       'Sable, Mahogany Sable, Shaded Sable, Tri-color, Blue Merle, Sable Merle, Colour Headed White, Double Merle, and White',
