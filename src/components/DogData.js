@@ -64,5 +64,23 @@ export const DogData = [
       'The Bernese Mountain Dog is a large dog breed, one of the four breeds of Sennenhund-type dogs from the Swiss Alps. These dogs have roots in the Roman mastiffs. The name Sennenhund is derived from the German Senne ("alpine pasture") and Hund (hound/dog), as they accompanied the alpine herders and dairymen called Senn. Berner (or Bernese in English) refers to the area of the breed\'s origin, in the canton of Bern. This breed was originally kept as a general farm dog. Large Sennenhund in the past were also used as draft animals, pulling carts. The breed was officially established in 1912.',
     image: '../img/bernese.jpg',
   },
+  {
+    breed: 'English Bulldog',
+    path: '/bulldog',
+    origin: 'England',
+    colors: "Red, White, Fawn, Fallow, Brindle, Chocolate, Black, Tri-Color, Blue, Lilac",
+    description:
+      'The Bernese Mountain Dog is a large dog breed, one of the four breeds of Sennenhund-type dogs from the Swiss Alps. These dogs have roots in the Roman mastiffs. The name Sennenhund is derived from the German Senne ("alpine pasture") and Hund (hound/dog), as they accompanied the alpine herders and dairymen called Senn. Berner (or Bernese in English) refers to the area of the breed\'s origin, in the canton of Bern. This breed was originally kept as a general farm dog. Large Sennenhund in the past were also used as draft animals, pulling carts. The breed was officially established in 1912.',
+    image: '../img/bulldog.jpg',
+  },
+  {
+    breed: 'Rough Collie',
+    path: '/collie',
+    origin: 'United Kingdom',
+    colors: "Sable, Mahogany Sable, Shaded Sable, Tri-color, Blue Merle, Sable Merle, Colour Headed White, Double Merle, and White",
+    description:
+      'The Rough Collie (also known as the Long-Haired Collie) is a long-coated dog breed of medium to large size that, in its original form, was a type of collie used and bred for herding sheep in Scotland. More recent breeding has focused on the Collie as a show dog, and also companion. The breed specifications call for a distinctive long narrow tapered snout and tipped (semiprick) ears, so some dogs must have their ears taped when young.',
+    image: '../img/collie.jpg',
+  },
 
 ];
