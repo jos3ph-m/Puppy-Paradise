@@ -5,15 +5,17 @@ import { DogData } from './DogData';
 const Dogs = () => {
   return (
     <div>
-      <ul>
+      <div>
         {DogData.map((dog, index) => {
           return (
-            <li>
-              {dog.breed} - {dog.origin}- {dog.colors}
-            </li>
+            <div key={index}>
+              <h2>{dog.breed}</h2>
+              <h4>{dog.origin}</h4>
+              <p>{dog.colors}</p>
+            </div>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 };
