@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dog = () => {
+const Dogs = () => {
   return (
     <div>
       <h2>Dogs will go here</h2>
@@ -8,4 +8,4 @@ const Dog = () => {
   );
 };
 
-export default Dog;
+export default Dogs;

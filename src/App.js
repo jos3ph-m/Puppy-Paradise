@@ -2,7 +2,7 @@ import './App.css';
 
 // Components
 import Nav from './components/Nav';
-import Dog from './components/Dog';
+import Dogs from './components/Dog';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Nav></Nav>
       <h1>Puppy Paradise 🐕</h1>
-      <Dog></Dog>
+      <Dogs></Dogs>
       <Footer></Footer>
     </div>
   );
