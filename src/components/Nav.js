@@ -6,11 +6,13 @@ const NavBar = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #361d2e;
+  margin-bottom: 5rem;
 `;
 
 const Logo = styled.div`
   font-size: 2rem;
-  color: black;
+  color: #fef9ff;
   margin-right: 5rem;
   font-family: 'Oleo Script', cursive;
 `;

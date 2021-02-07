@@ -3,7 +3,12 @@ import styled from 'styled-components';
 
 import { DogData } from './DogData';
 
-const Dog = styled.div``;
+const Dog = styled.div`
+  img {
+    height: 300px;
+    width: 300px;
+  }
+`;
 
 const DogsContainer = styled.div`
   display: grid;
@@ -19,11 +24,12 @@ const Dogs = () => {
     <DogsContainer>
       {DogData.map((dog, index) => {
         return (
-          <div key={index}>
+          <Dog key={index}>
+            <img src={dog.image} alt="" />
             <h2>{dog.breed}</h2>
             <h4>{dog.origin}</h4>
             <p>{dog.colors}</p>
-          </div>
+          </Dog>
         );
       })}
     </DogsContainer>
