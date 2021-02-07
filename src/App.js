@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Nav></Nav>
-      <h1>Puppy Paradise 🐕</h1>
       <Dogs></Dogs>
       <Footer></Footer>
     </div>
