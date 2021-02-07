@@ -8,6 +8,10 @@ const Dog = styled.div``;
 const DogsContainer = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-row-gap: 3rem;
+  grid-column-gap: 3rem;
+  width: 1000px;
+  margin: 0 auto;
 `;
 
 const Dogs = () => {
