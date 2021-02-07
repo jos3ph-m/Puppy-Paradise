@@ -5,8 +5,10 @@ import { DogData } from './DogData';
 
 const Dog = styled.div`
   img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 4px;
   }
 `;
 
@@ -15,7 +17,7 @@ const DogsContainer = styled.div`
   grid-template-columns: auto auto auto;
   grid-row-gap: 3rem;
   grid-column-gap: 3rem;
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 `;
 
